@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HS Metal Detector</string>
+    <string name="magneticField">Field strength: </string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash_screen">HS Detector</string>
+    <string name="title_activity_emfdetector">HS EMF Detector</string>
+    <string name="emf_Field">Field strength :</string>
+    <string name="title_activity_selection_screen">Welcome</string>
+    <string name="emfDec">EMF Detector</string>
+    <string name="metDec">Metal Detector</string>
+    <string name="ex">Exit</string>
+    <string name="he">Help</string>
+    <string name="title_activity_help">Help</string>
+
+</resources>

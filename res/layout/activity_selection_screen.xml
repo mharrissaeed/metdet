@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SelectionScreen"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/met"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+        android:text="@string/metDec" 
+        android:textColor="#FFFFFF"
+        android:textSize="11pt"
+        />
+
+    <Button
+        android:id="@+id/emf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/met"
+        android:layout_alignRight="@+id/met"
+        android:layout_below="@+id/met"
+        android:text="@string/emfDec"
+        android:textColor="#FFFFFF" 
+        android:textSize="11pt"/>
+
+    <Button
+        android:id="@+id/he"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exit"
+        android:layout_alignRight="@+id/emf"
+        android:layout_below="@+id/emf"
+        android:text="@string/he"
+        android:textColor="#FFFFFF"
+        android:textSize="11pt" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/met"
+        android:layout_alignRight="@+id/emf"
+        android:layout_below="@+id/he"
+        android:text="@string/ex" 
+        android:textColor="#FFFFFF"
+        android:textSize="11pt"/>
+
+</RelativeLayout>

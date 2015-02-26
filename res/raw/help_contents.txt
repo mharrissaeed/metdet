@@ -1,0 +1,64 @@
+<head>
+<a name="about_HSMetalDetector" id="about_HSMetalDetector">
+<h3>About HS Metal Detector</h3>
+This Application was developed by Muhammad Harris Saeed as a final year project for Cardiff Metropolitan University.
+</a>
+</head>
+
+
+<body>
+<br>
+<p1>All the reading displayed as a result are in "Micro Telsa (ut)".
+<br>
+For converting the reading from MicroTesla (uT) to Gauss (G). Use the following Conversion.
+<br>
+1 Gauss = 100 MicroTesla.
+<br>
+When the application is behaving abnormally. The sensors are not working correctly, sensor calibration is requires. For calibrating the device sensors.Rotate the device around the axis or in the figure 8 shape.<p1>
+<a name="feedback" id="feedback">
+<h3>Feedback</h3>
+Any comments, feedback, suggestions on HS Metal Detector please write to us using the form below.
+<br>
+<form enctype="multipart/form-data" method="post" action="http://www.freedback.com/mail.php" accept-charset="UTF-8">
+	<div>
+		<input type="hidden" name="acctid" id="acctid" value="4x30oj8agbjov1gh" />
+		<input type="hidden" name="formid" id="formid" value="1166080" />
+		<input type="hidden" name="required_vars" id="required_vars" value="name,email,field-808407026a4bd75" />
+	</div>
+	<table cellspacing="5" cellpadding="5" border="0">
+		<tr>
+			<td valign="top">
+				<strong>Name:</strong>
+			</td>
+			<td valign="top">
+				<input type="text" name="name" id="name" size="30" value="" />
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<strong>Email Address:</strong>
+			</td>
+			<td valign="top">
+				<input type="text" name="email" id="email" size="30" value="" />
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<strong>Comments &amp; Suggestions:</strong>
+			</td>
+			<td valign="top">
+				<textarea name="field-808407026a4bd75" id="field-808407026a4bd75" rows="6" cols="30"></textarea>
+				
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" value=" Submit Form " />
+			</td>
+		</tr>
+	</table>
+</form>
+</body>

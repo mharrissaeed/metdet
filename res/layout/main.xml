@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/xTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:textSize="8pt"/>
+
+    <TextView
+        android:id="@+id/yTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/zTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/progress_bar_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dip"
+        android:text="@string/magneticField"
+        android:textSize="10pt" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="4dip"
+            android:text="@string/low"
+            android:textSize="9pt" />
+
+        
+        <ProgressBar 
+			android:id="@+id/progress_bar" 
+			android:layout_width="220dp" 
+			android:layout_height="20dp" 
+			android:progress="50"
+			android:max="100" 
+			android:secondaryProgress="0"
+			style="?android:attr/progressBarStyleHorizontal" 
+			android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="4dip"
+            android:text="@string/high"
+            android:textSize="9pt" />
+    </LinearLayout>
+    
+        <TextView
+        android:id="@+id/Res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dip"
+        android:textSize="14pt"
+        android:layout_gravity="center"/>
+        
+</LinearLayout>
